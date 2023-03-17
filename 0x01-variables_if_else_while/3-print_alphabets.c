@@ -6,11 +6,15 @@
  */
 int main(void)
 {
-int a = 71;
-for (a = 'a' ; a < 'z'  ; a++)
+int a;
+for (a = 'a' ; a <= 'z'  ; a++)
 {
 putchar(a);
 }
-putchar('\n');
+for (a = 'A' ; a <= 'Z'  ; a++)
+{
+putchar(a);
+}
+putchar('$');
 return (0);
 }
