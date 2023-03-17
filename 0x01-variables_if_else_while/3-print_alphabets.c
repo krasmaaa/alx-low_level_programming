@@ -6,15 +6,16 @@
  */
 int main(void)
 {
-int a;
-for (a = 'a' ; a <= 'z'  ; a++)
+char abc;
+
+for (abc = 'a'; abc <= 'z'; abc++)
 {
-putchar(a);
+putchar(abc);
 }
-for (a = 'A' ; a <= 'Z'  ; a++)
+for (abc = 'A'; abc <= 'Z'; abc++)
 {
-putchar(a);
+putchar(abc);
 }
-putchar('$');
+putchar('\n');
 return (0);
 }
