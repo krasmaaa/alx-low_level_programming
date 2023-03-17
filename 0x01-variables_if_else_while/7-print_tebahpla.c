@@ -6,10 +6,11 @@
  */
 int main(void)
 {
-int alb;
-for (alb = '122' ; alb > '96' ; alb--)
+char abc;
+
+for (abc = 'z'; abc >= 'a'; abc--)
 {
-putchar(alb);
+putchar(abc);
 }
 putchar('\n');
 return (0);
