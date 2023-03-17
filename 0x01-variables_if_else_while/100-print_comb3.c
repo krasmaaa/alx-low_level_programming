@@ -12,7 +12,7 @@ for (a = 0 ; a < 9 ; a++)
 {
 for (b = 0 ; b < 10 ; b++)
 {
-printf("%d%d", a, b);
+printf("%d%d, ", a, b);
 }
 }
 return (0);
